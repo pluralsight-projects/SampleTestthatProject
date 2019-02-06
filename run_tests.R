@@ -8,6 +8,5 @@ if (length(args)==0) {
 }
 
 if (module == "module1") {
-  source("R/module1.R")
-  test_results <- test_file("tests/tests_module1.R", reporter="summary")
+  test_results <- test_file("tests/tests_module1.R", reporter="junit")
 }

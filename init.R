@@ -1,7 +1,7 @@
-install.packages("packrat")
+install.packages('packrat')
 
 packrat::init()
 
-install.packages("ggplot2")
-install.packages("testthat")
-install.packages("xml2")
+install.packages('ggplot2')
+install.packages('testthat')
+install.packages('xml2')
